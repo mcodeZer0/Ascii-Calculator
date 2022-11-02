@@ -12,7 +12,12 @@ public class Main {
           
         String keyword = input.nextLine();
         
-        if (keyword.equals("calc-app")) main.enter(input);
+        if (keyword.equals("calc-math")) {
+            main.enter(input);
+        } else {
+            System.out.println("no keywords--");
+            return;
+        }
     
     }
     
